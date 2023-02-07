@@ -14,6 +14,7 @@ public class BeerServiceImpl implements BeerService {
         return BeerDto.builder().id(UUID.randomUUID())
                 .beerName("Galaxy Cat")
                 .beerStyle("Pale Ale")
+                .upc(123456789012L)
                 .build();
     }
 
